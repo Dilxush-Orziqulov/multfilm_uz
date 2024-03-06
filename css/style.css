@@ -65,7 +65,7 @@ body {
 input {
     border: none;
     outline: none;
-    width: 90%;
+    width: 85%;
     padding: 10px 10px;
     color: #fff;
     transition: 0.3s linear;
@@ -81,12 +81,12 @@ input::placeholder {
 }
 
 
-img {
-    width: 30px;
+.link img {
+    width: 1.4rem;
 }
 
 button {
-    width: 25%;
+    width: 30%;
     border-radius: 20px;
     cursor: pointer;
     padding: 15px 0;
@@ -96,6 +96,10 @@ button {
     transition: 0.3s linear;
     border: none;
     font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
 }
 
 button:hover {
@@ -117,7 +121,7 @@ main {
 }
 
 .logo {
-    width: 140px;
+    width: 40%;
     height: 200px;
     text-decoration: none;
 }
@@ -129,7 +133,7 @@ main {
 }
 
 .about {
-    width: 400px;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,7 +182,7 @@ main {
     align-items: center;
     text-decoration: none;
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     gap: 1rem;
 }
 
