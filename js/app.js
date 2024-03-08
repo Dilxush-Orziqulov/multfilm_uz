@@ -216,6 +216,9 @@ search_btn.addEventListener('click', ()=>{
     } // Agar Multfilmlar massivida mavjud bo'lmagan multfilm qidirilsa ushbu sikl ishlaydi!
 });
 
+btn.addEventListener('click', ()=>{
+  search.value = ''
+})
 
 
 
