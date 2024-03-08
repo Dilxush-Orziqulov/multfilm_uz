@@ -2,6 +2,7 @@ let multik_name = document.querySelector('.multik_name');
 let multik_logo = document.querySelector('.multik_logo');
 let multik_video = document.querySelector('.multik_video');
 let search_btn = document.querySelector('button');
+let harf = document.querySelector('.harf');
 let btn = document.querySelector('.btn');
 let logo = document.querySelector('.logo');
 let search = document.querySelector('#search'); // HTML dan elementlar tanlab olindi
@@ -218,6 +219,10 @@ search_btn.addEventListener('click', ()=>{
 
 btn.addEventListener('click', ()=>{
   search.value = ''
+})
+
+harf.addEventListener('click', ()=>{
+  search.value = search.value + 'A'
 })
 
 
