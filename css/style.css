@@ -148,20 +148,6 @@ main {
     border-radius: 5px;
 }
 
-.harf {
-    width: 50px;
-    font-size: 1rem;
-    height: 50px;
-    border-radius: 50%;
-    background-color: red;
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-}
-
 .about {
     width: 60%;
     display: flex;
