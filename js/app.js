@@ -6,7 +6,7 @@ let btn = document.querySelector('.btn');
 let logo = document.querySelector('.logo');
 let search = document.querySelector('#search'); // HTML dan elementlar tanlab olindi
 
-let arr_multik = ["Ajdar o'rgatuvchilar", 'Adamslar oilasi', 'Sinbad', 'Asalarilar fitnasi', 'salom', 'alik'];
+let arr_multik = ["Ajdar o'rgatuvchilar", 'Adamslar oilasi', 'Sinbad', 'Asalarilar fitnasi',];
 // Multfilmlar massivi
 let arr_random = arr_multik[Math.floor(Math.random() * arr_multik.length)];
 // Multfilmlar massivida mavjud bolmagan multfilmlarni aniqlash uchun
