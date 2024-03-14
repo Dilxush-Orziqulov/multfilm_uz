@@ -199,12 +199,12 @@ main {
     position: absolute;
     background-color: #f1f1f1;
     border-radius: 5px;
-    top: 32%;
+    top: 35%;
     width: 80%;
     left: 10%;
     flex-direction: column;
     justify-content: space-between;
-    padding: 7px;
+    padding: 9px;
 }
 
 .row {
