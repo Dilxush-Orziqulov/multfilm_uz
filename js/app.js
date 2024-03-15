@@ -45,20 +45,20 @@ board_btn.addEventListener('click', search = () => {
       if (textvalue.toUpperCase().indexOf(searchbox) > -1) {
         multik_item[i].style.display = '';
       } else {
-        multik_item[i].style.display = 'none';
-        board.style.display = 'none';
+        multik_item[i].style.display = 'none';;
+        board.style.display = 'none';;
       }
     }
   }
 });
 
 del.addEventListener('click', () => {
-  searchbox.value = searchbox.value.slice(0, -1)
-})
+  searchbox.value = searchbox.value.slice(0, -1);
+});
 
 searchbox.addEventListener('click', () => {
-  board.style.display = 'flex'
-})
+  board.style.display = 'flex';
+});
 
 
 

@@ -199,12 +199,12 @@ main {
     position: absolute;
     background-color: #f1f1f1;
     border-radius: 5px;
-    top: 35%;
-    width: 80%;
-    left: 10%;
+    bottom: 0;
+    width: 55%;
+    left: 22.5%;
     flex-direction: column;
     justify-content: space-between;
-    padding: 9px;
+    padding: 20px;
 }
 
 .row {
@@ -224,24 +224,29 @@ main {
     color: #000;
     border: none;
     outline: none;
-    width: 30px;
-    height: 40px;
+    width: 50px;
+    height: 60px;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     margin-bottom: 10px;
-    box-shadow: 0px 0px 10px #fff;
-    transition: 0.2s linear;
+    box-shadow: 0px 0px 15px rgb(182, 175, 175);
+    transition: 0.1s linear;
+    font-size: 1.2rem;
 }
 
 .key:active {
     transform: scale(1.5);
-    transition: 0.2s linear;
+    transition: 0.1s linear;
 }
 
 .key i {
     font-size: 1.1rem;
+}
+
+.space {
+    width: 100%;
 }
 
 
@@ -262,5 +267,23 @@ main {
 
     html {
         font-size: 11px;
+    }
+
+    .board {
+        bottom: 0;
+        width: 100%;
+        padding: 10px;
+        left: 0%;
+    }
+
+    .key {
+        width: 40px;
+        height: 45px;
+        font-size: 0.9rem;
+        box-shadow: 0px 0px 15px rgb(236, 235, 235);
+    }
+
+    .space {
+        width: 100%;
     }
 }
