@@ -16,7 +16,7 @@ body {
 
 .container {
     display: flex;
-    margin: 20px auto;
+    margin: 10px auto;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +28,6 @@ body {
     border-radius: 20px;
     box-shadow: 2px 2px 15px #000;
     letter-spacing: 0.1rem;
-    /* position: relative; */
 }
 
 .bot_name {
@@ -44,8 +43,12 @@ body {
     font-weight: bold;
 }
 
-.bot_name img {
+.galichka {
     width: 2.5rem;
+}
+
+.multikland{
+    width: 3.5rem;
 }
 
 .bot_name h1 {
@@ -271,13 +274,13 @@ main {
     .board {
         bottom: 0;
         width: 100%;
-        padding: 10px;
+        padding: 15px 15px 40px 15px;
         left: 0%;
     }
 
     .key {
         width: 45px;
-        height: 50px;
+        height: 40px;
         font-size: 0.9rem;
         box-shadow: 0px 0px 15px rgb(236, 235, 235);
     }
